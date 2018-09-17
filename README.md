@@ -10,7 +10,11 @@ JSON (good alternative to NoSQL databases).
 ```
 brew install postgresql
 ```
-Create the database for storing data
+Use the default postgres super user to create a database.
 ```
 createdb [database name]
+```
+Connect to the database with `psql`.
+```
+psql [database name]
 ```
