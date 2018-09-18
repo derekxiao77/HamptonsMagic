@@ -158,7 +158,7 @@ public class TestConnection {
   }
 
   public static void main(String[] args) {
-    System.out.println(addStudent("derek","xiao","CS",3.910));
+    System.out.println(addStudent("Alli","Buller","CS",3.85));
   }
 
 }

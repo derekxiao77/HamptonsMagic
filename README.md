@@ -18,3 +18,15 @@ Connect to the database with `psql`.
 ```
 psql [database name]
 ```
+
+### Connecting to the database
+We will be using Java to connect to our PostgreSQL database. The driver can be downloaded [here](https://jdbc.postgresql.org/download.html). After downloading the driver, create
+a folder in the project package called `lib` and add the JAR file. To compile and run our
+Java files, we will be using `java -cp ...` in order to include the JAR file in the class path.
+For example:
+```
+javac Test.java
+java -cp ./:./lib/postgresql-42.2.5.jar Test
+```
+
+### 
